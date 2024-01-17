@@ -4,7 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.gitignore
+.postcss.config.js
+.tailwind.config.js
+.yarn.lock
 # testing
 /coverage
 
