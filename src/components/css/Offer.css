@@ -1,0 +1,33 @@
+/* Offer.css */
+
+/* .offer-container {
+    
+  } */
+  
+  .offer-text {
+    color: red; /* New best offer line in red */
+  }
+  
+  .coming-soon-text {
+    font-size: 46px; /* Adjust the size as needed */
+    font-weight: bold;
+    color: black;
+  }
+  .offer-paragraph {
+      font-weight: 300; 
+      color: black;
+    }
+    /*   
+  
+  .fireworks-img {
+
+  }
+  
+  .new-year-info {
+  
+  }
+  
+  .new-year-text {
+ 
+  }
+   */

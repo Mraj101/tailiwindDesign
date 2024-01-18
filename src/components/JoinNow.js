@@ -1,9 +1,22 @@
-import React from 'react'
-
+import React from "react";
+import "./css/joinNow.css";
 const JoinNow = () => {
   return (
-    <div class="border-4 border-b-gray-950 w-96">Hi join now</div>
-  )
-}
+    <div className="gradient-bg  py-7 rounded-lg h-96 flex justify-center items-center">
+      <div class="flex items-center justify-center flex-col border-4 border-red-500">
+        <p>
+          <span>Place:</span>New Park hotel
+        </p>
+        <p>
+          <span>Date:</span>31 December Night 2023
+        </p>
+        <p>
+          <span>Time:</span>Evening 7:30 Pm To 12.30 Am
+        </p>
+        <button>JOIN NOW</button>
+      </div>
+    </div>
+  );
+};
 
-export default JoinNow
+export default JoinNow;
