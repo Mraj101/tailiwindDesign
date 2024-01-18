@@ -7,8 +7,8 @@ import Offer from './Offer'
 
 const Home = () => {
   return (
-    <div class=' flex justify-center' >
-      <div class='w-10/12'>
+    <div class='flex justify-center bg-yellow-100' >
+      <div class='w-9/12  shadow-sm shadow-black-50 bg-white'>
       <Banner/>
       <Deal/>
       <Party/>
