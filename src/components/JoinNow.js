@@ -2,8 +2,8 @@ import React from "react";
 import "./css/joinNow.css";
 const JoinNow = () => {
   return (
-    <div className="gradient-bg  py-7 rounded-lg h-96 flex justify-center items-center border border-gray shadow-sm shadow-gray">
-      <div class="flex items-center justify-center flex-col border-4 border-red-500">
+    <div className="gradient-bg  py-7 rounded-lg h-96 flex justify-center items-center shadow-sm shadow-gray">
+      <div class="flex items-center justify-center flex-col ">
         <p>
           <span>Place:</span>New Park hotel
         </p>

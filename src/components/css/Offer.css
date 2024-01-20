@@ -13,10 +13,12 @@
     font-weight: bold;
     color: black;
   }
-  .offer-paragraph {
+  /* .offer-paragraph {
       font-weight: 300; 
       color: black;
-    }
+      height: 250px;
+      overflow: hidden;
+    } */
     /*   
   
   .fireworks-img {
