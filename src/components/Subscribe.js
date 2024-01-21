@@ -3,8 +3,8 @@ import emailImg from "../assets/email.png";
 
 const Subscribe = () => {
   return (
-    <div className="flex items-center">
-      <div className="py-7 w-full border-4 flex items-center justify-center flex-col">
+    <div className="flex items-center p-2">
+      <div className="py-7 rounded-lg bg-gray-200 w-full flex items-center justify-center flex-col">
         <div>
           <img src={emailImg} alt="image" />
         </div>
@@ -19,12 +19,12 @@ const Subscribe = () => {
         </div>
         <div>
           {/* Enclose the input element within a container (e.g., div) */}
-          <div className="border border-black">
+          <div class="relative">
             <input
-              className=" outline-none px-1"
+              class="w-92 placeholder-black-500 border-black rounded-3xl pr-24 p-1.5"
               type="text"
             />
-            <span  class="border-l-4 border-black h-full bg-red-500" >Subscribe</span>
+            <span  class="font-medium absolute border-l-1 border-red-300 p-1.5 right-0.5 top-0.5 rounded-r-3xl bg-red-500" >Subscribe</span>
           </div>
         </div>
       </div>
