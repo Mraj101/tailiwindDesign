@@ -8,8 +8,8 @@ import GlassImg from "../assets/glass.png";
 
 const GiftsSection = () => {
   return (
-    <div class="flex items-center">
-      <div class="py-7 w-full">
+    <div class="flex items-center mb-20">
+      <div class="w-full">
         <div class="font-inter py-1">
           <h2 class="text-red-500 font-semibold py-1">The Best Gifts</h2>
           <h1 class="text-2xl font-extrabold py-2">Our Awesome Portfolio</h1>
@@ -18,32 +18,32 @@ const GiftsSection = () => {
             in.
           </p>
         </div>
-        <div class="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 px-5 md:px-0 lg:px-0 xl:px-0 2xl:px-0 gap-5">
+        <div class="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 px-5 md:px-0 lg:px-0 xl:px-0 2xl:px-0 gap-5">
           <div class="row-span-1">
             <img
-              className="object-contain w-full h-full"
+              className="object-contain w-full"
               src={VanityBagImg}
               alt="image"
             />
           </div>
           <div class="row-span-1">
             <img
-              className="object-contain w-full h-full"
+              className="object-contain w-full"
               src={ParseImg}
               alt="imgage"
             />
           </div>
           <div class="row-span-1">
-            <img src={RedHillImg} alt="imgage" />
+            <img  className="object-contain w-full" src={RedHillImg} alt="imgage" />
           </div>
-          <div class="row-span-1">
-            <img src={WhiteHillImg} alt="imgage" />
+          <div class="row-span-1 object-cover w-full">
+            <img  className="object-contain w-full" src={WhiteHillImg} alt="imgage" />
           </div>
-          <div class="row-span-1">
-            <img src={GlassImg} alt="imgage" />
+          <div class="row-span-1 object-contain w-full">
+            <img  className="object-contain w-full" src={GlassImg} alt="imgage" />
           </div>
-          <div class="row-span-1">
-            <img src={BangleImg} alt="imgage" />
+          <div class="row-span-1 object-contain w-full">
+            <img  className="object-contain w-full" src={BangleImg} alt="imgage" />
           </div>
         </div>
       </div>

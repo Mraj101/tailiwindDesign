@@ -11,8 +11,9 @@ import Footer from './Footer'
 
 const Home = () => {
   return (
-    <div class='flex justify-center' >
-      <div class=' shadow-sm shadow-black-50 bg-white m-2 lg:w-9/12 '>
+    <>
+    <div class='flex justify-center items-center flex-col' >
+      <div class=' shadow-sm shadow-black-50 bg-white m-2 lg:w-10/12 '>
       <Banner/>
       <Deal/>
       <Party/>
@@ -21,9 +22,11 @@ const Home = () => {
       <HolidaySale/>
       <GiftsSection/>
       <Subscribe/>
-      <Footer/>
       </div>
     </div>
+      <Footer/>
+    </>
+    
   )
 }
 
