@@ -3,7 +3,7 @@ import BannerImg from "../assets/Banner.png";
 
 const Banner = () => {
   return (
-    <div className=" flex items-center justify-center py-7  ">
+    <div className=" flex items-center justify-center py-7 mb-20 font-inter">
       <div className="relative">
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-35 rounded-lg"></div>
         <div className="absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-5 text-center text-white w-9/12" >
